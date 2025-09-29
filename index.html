@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>FASHION BEAUTY AND DESIGN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Raleway&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Raleway', sans-serif;
       background-color: #fff0f5;
       color: #333;
       margin: 0;
@@ -15,8 +16,9 @@
     header {
       background-color: #8A2BE2;
       color: white;
-      padding: 20px;
+      padding: 30px;
       text-align: center;
+      font-family: 'Playfair Display', serif;
     }
 
     nav ul {
@@ -41,6 +43,7 @@
     h2 {
       color: #8A2BE2;
       text-align: center;
+      font-family: 'Playfair Display', serif;
     }
 
     section {
@@ -70,6 +73,27 @@
     a:hover {
       color: #5a189a;
     }
+
+    .testimonial {
+      background-color: #f9f1ff;
+      border-left: 4px solid #8A2BE2;
+      padding: 15px;
+      margin: 10px 0;
+      font-style: italic;
+    }
+
+    .blog-preview {
+      background-color: #fdfdfd;
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin: 10px auto;
+      max-width: 600px;
+    }
+
+    .blog-preview h3 {
+      margin-top: 0;
+      color: #8A2BE2;
+    }
   </style>
 </head>
 <body>
@@ -77,11 +101,15 @@
   <!-- Header with logo and navigation -->
   <header>
     <h1>FASHION BEAUTY AND DESIGN</h1>
+    <p><em>Confidence. Creativity. You.</em></p>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
         <li><a href="#features">Features</a></li>
+        <li><a href="#showcase">Showcase</a></li>
         <li><a href="#video">Tutorial</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="https://blessingmabonga-123.github.io/25-1300/" target="_blank">Visit GitHub Site</a></li>
       </ul>
@@ -111,16 +139,13 @@
       </ul>
     </section>
 
-    <section>
+    <section id="showcase">
       <h2>Product/Service Showcase</h2>
-
-      <!-- Image and soft glam description -->
       <div style="text-align: center;">
         <img src="profile.jpg" alt="Fashion and beauty showcase" width="300">
         <p><em>Example of Soft Glam:</em> A radiant, natural makeup look featuring warm neutral eyeshadow, soft lashes, glowing skin, and a nude glossy lip — perfect for both daytime elegance and evening charm.</p>
       </div>
 
-      <!-- Product table -->
       <table style="border: 2px solid #8A2BE2; border-collapse: collapse; width: 60%; margin: 20px auto;">
         <caption style="font-weight: bold; font-size: 1.2em; margin-bottom: 10px;">Featured Products & Services</caption>
         <tr style="background-color: #f2f2f2;">
@@ -160,16 +185,11 @@
         title="Everyday Makeup Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
     </section>
-  </main>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <p>Contact us at: fashionbeautydesign@example.com</p>
-    <p>&copy; 2025 FASHION BEAUTY AND DESIGN. All rights reserved.</p>
-  </footer>
+    <section id="testimonials">
+      <h2>What People Are Saying</h2>
+      <div class="testimonial">“Blessing’s styling
 
-</body>
-</html>
 
 
 
