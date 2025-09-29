@@ -82,6 +82,8 @@
         <li><a href="#home">Home</a></li>
         <li><a href="#features">Features</a></li>
         <li><a href="#video">Tutorial</a></li>
+        <li><a href="#quiz">Style Quiz</a></li>
+        <li><a href="#gallery">Gallery</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="https://blessingmabonga-123.github.io/25-1300/" target="_blank">Visit GitHub Site</a></li>
       </ul>
@@ -160,16 +162,29 @@
         title="Everyday Makeup Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
       </iframe>
     </section>
-  </main>
 
-  <!-- Footer -->
-  <footer id="contact">
-    <p>Contact us at: fashionbeautydesign@example.com</p>
-    <p>&copy; 2025 FASHION BEAUTY AND DESIGN. All rights reserved.</p>
-  </footer>
+    <section id="quiz">
+      <h2>Find Your Style Personality</h2>
+      <p>Answer a few quick questions to discover your signature look!</p>
+      <form id="styleQuiz">
+        <label>What's your go-to outfit?</label><br>
+        <input type="radio" name="outfit" value="classic"> Blazer and jeans<br>
+        <input type="radio" name="outfit" value="boho"> Flowy dress and sandals<br>
+        <input type="radio" name="outfit" value="edgy"> Leather jacket and boots<br><br>
 
-</body>
-</html>
+        <label>Favorite color palette?</label><br>
+        <input type="radio" name="color" value="neutral"> Neutrals<br>
+        <input type="radio" name="color" value="bright"> Brights<br>
+        <input type="radio" name="color" value="dark"> Dark tones<br><br>
+
+        <button type="button" onclick="showResult()">Get My Style</button>
+      </form>
+      <p id="result" style="font-weight: bold; margin-top: 10px;"></p>
+
+      <script>
+        function showResult() {
+          const outfit = document.querySelector('input[name="outfit"]:checked');
+          const
 
 
 
