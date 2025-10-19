@@ -1,1 +1,103 @@
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background: linear-gradient(135deg, #ffeef8, #eaf6f6);
+  margin: 40px;
+  color: #2b2b2b;
+}
+
+h1 {
+  text-align: center;
+  color: #b30059;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+table {
+  width: 95%;
+  margin: 25px auto;
+  border-collapse: collapse;
+  box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  font-size: 1em;
+}
+
+th {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #444;
+}
+
+tr:hover td {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 15px;
+  color: #777;
+  font-style: italic;
+  border-top: 2px dashed #b30059;
+}
+
+/* 🎨 Custom colors for table headers */
+.designer { background-color:#d63384; }
+.collection { background-color:#ff7f50; }
+.theme { background-color:#6f42c1; }
+.date { background-color:#20c997; }
+.price { background-color:#fd7e14; }
+.status { background-color:#0d6efd; }
+
+.brand { background-color:#d63384; }
+.contact { background-color:#ff7f50; }
+.email { background-color:#6f42c1; }
+.city { background-color:#20c997; }
+.specialty { background-color:#fd7e14; }
+.launch { background-color:#0d6efd; }
+
+/* 🎨 Custom row colors for Fashion table */
+.v-designer { background-color:#ffe4ec; }
+.v-collection { background-color:#f0e68c; }
+.v-theme { background-color:#d8bfd8; }
+.v-date { background-color:#afeeee; }
+.v-price { background-color:#ffb6c1; }
+.v-status { background-color:#98fb98; }
+
+.d-designer { background-color:#ffd700; }
+.d-collection { background-color:#ffdab9; }
+.d-theme { background-color:#dda0dd; }
+.d-date { background-color:#e0ffff; }
+.d-price { background-color:#add8e6; }
+.d-status { background-color:#f08080; }
+
+.f-designer { background-color:#e6e6fa; }
+.f-collection { background-color:#ffe4b5; }
+.f-theme { background-color:#fafad2; }
+.f-date { background-color:#f5deb3; }
+.f-price { background-color:#d8bfd8; }
+.f-status { background-color:#90ee90; }
+
+/* 🎨 Custom row colors for Beauty table */
+.mac { background-color:#ffe4e1; }
+.huda { background-color:#ffdab9; }
+.gucci { background-color:#fafad2; }
 
